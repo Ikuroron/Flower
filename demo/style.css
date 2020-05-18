@@ -1,0 +1,71 @@
+* { margin: 0; padding: 0; }
+html {
+	height: 100%;
+}
+body {
+	color: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-image: url(img/チューリップ.jpg);
+	background-size: cover;
+	background-position: 50% 0;
+    height: 100%;
+}
+
+header {
+    font-family: 'arial unicode ms';
+    color: rgb(255, 255, 255, .6);
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 100px;
+    margin: 20px 20px;
+}
+
+header p {
+    line-height: 20px;
+    font-size: 18px;
+    margin: 20px 20px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    width: 160px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 40px;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255, .2);;
+    padding: 20px 0;
+    transition: 0.2s;
+}
+
+header li:hover {
+    transform: scale(1.5, 1.5);
+}
+
+header a {
+    color: rgb(255, 255, 255, .7);
+}
+
+header a:hover {
+    color: rgb(255, 255, 255);
+}
+
+header a:active {
+    color: rgb(255, 121, 121, .5);
+}
+
+
+/* レスポンス対応 */
+@media screen and (max-width: 960px) {
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
