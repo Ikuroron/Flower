@@ -23,7 +23,7 @@ $(function(){
 
 
         // 画面表示時アニメーション
-        let sectionTop = $('#birth-flower').offset().top;
+        // let sectionTop = $('#birth-flower').offset().top;
 
         if (scrollTop >= scrollTop) {
             $('#birth-flower').animate({ left: 0}, 1000);
