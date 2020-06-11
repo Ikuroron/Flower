@@ -6,6 +6,10 @@ $(function(){
         $('body, html').animate({ scrollTop: 0,}, 600);
         
     })
+
+    // 画面表示された瞬間アニメーションで表示
+    $('#birth-flower').animate({ left: 0}, 1000);
+
     
     // 画面がスクロールされたら
     $(window).scroll(function () {
@@ -23,12 +27,6 @@ $(function(){
 
 
         // 画面表示時アニメーション
-        // let sectionTop = $('#birth-flower').offset().top;
-
-        if (scrollTop >= scrollTop) {
-            $('#birth-flower').animate({ left: 0}, 1000);
-        }
-
         let asideTop = $('#flower-code').offset().top;
 
         if (scrollTop >= asideTop -500) {
