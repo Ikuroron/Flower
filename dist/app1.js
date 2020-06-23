@@ -18,7 +18,7 @@ $(function(){
         let scrollTop = $(document).scrollTop();
         console.log(scrollTop);
         
-        // スクロールの量が500以上なら表示、それ以外は非表示
+        // スクロールの量が300以上なら表示、それ以外は非表示
         if (scrollTop >= 300) {
             $('.arrow-up').fadeIn();
         } else {
